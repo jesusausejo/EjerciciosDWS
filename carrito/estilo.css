@@ -1,0 +1,55 @@
+
+   BODY {font-family: verdana,arial, sans-serif; font-size: 10pt;}
+   a {
+      text-decoration: none;
+   }
+/* Contenido */
+   H1 {font-size: 16pt; font-weight: bold; color: #0066CC;}
+   H2 {font-size: 12pt; font-weight: bold; font-style: italic; color: black;}
+   H3 {font-size: 10pt; font-weight: bold; color: black;}
+
+/* Formulario */
+   FORM.borde {border: 1px dotted #0066CC; padding: 0.5em 0.2em; width: 80%;}
+   FORM P {clear: left; margin: 0.2em; padding: 0.1em;}
+   FORM P LABEL {float: left; width: 25%; font-weight: bold;}
+   .error {color: red;}
+   .producto{
+      display: inline-block;
+      width: 300px;
+      height: 300px;
+      text-align: center;
+   }
+   .detalle{
+      display: inline-block;
+      width: 45%;
+      margin: auto;
+      padding: 10px;
+      
+     
+   }
+   .carrito{
+
+      position: relative;
+      width: 200px;
+      left:90%;
+      text-align: center;
+
+   }
+   .boton{
+      border-radius: 4px 4px 4px 4px;
+      -moz-border-radius: 4px 4px 4px 4px;
+   -webkit-border-radius: 4px 4px 4px 4px;
+      border: 1px solid rgb(0,0,100);
+      text-align: center;
+      padding: 4px;
+
+   }
+   #contenedor{
+      width: 100%;
+     
+   }
+
+/* Tablas */
+   TH {font-size: 10pt; font-weight: bold; color: white; background: #0066CC; text-align: left;}
+   TD {font-size: 10pt; background: #CCCCCC;}
+
